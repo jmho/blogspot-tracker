@@ -1,0 +1,1 @@
+C:\Users\Justin\Desktop\Personal-Documents\Personal-code\blogspot-tracker\env\Scripts\python.exe C:\Users\Justin\Desktop\Personal-Documents\Personal-code\blogspot-tracker\main.py
