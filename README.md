@@ -45,7 +45,8 @@ In order to send automated gmails, it is necessary to get a OAuth 2.0 access tok
 [@jmho](github.com/jmho)
 
 ## Version History
-
+- 0.1.1
+  - Fixed bugs with message sending  
 - 0.1
     - Initial Release
 

@@ -76,7 +76,7 @@ class blogspot_tracker:
         service = build("gmail", "v1", credentials=creds)
         return service
 
-    def send_message(service, sender, message):
+    def send_message(self, service, sender, message):
         """Send an email message.
 
         Args:
@@ -101,7 +101,7 @@ class blogspot_tracker:
         except errors.HttpError as error:
             logging.error("An HTTP error occurred: %s", error)
 
-    def create_message(sender, to, subject="New Blog Post", body="New Blog Post"):
+    def create_message(self, sender, to, subject="New Blog Post", body="New Blog Post"):
         msg = MIMEMultipart()
 
         msg["to"] = to
